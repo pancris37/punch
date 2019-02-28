@@ -43,6 +43,9 @@ public class ILinkedListTest {
             a.add(i);
         }
 
+        ILinkedList.Node mid = ILinkedList.SingleList.findMid(a.getHead());
+        System.out.println(mid.value);
+
         for (int i = -2; i < 50; i+=2) {
             b.add(i);
         }
@@ -53,6 +56,8 @@ public class ILinkedListTest {
             System.out.print(node.value + "->");
             node = node.next;
         }
+
+
 
 
     }

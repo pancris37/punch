@@ -120,9 +120,20 @@ public class ILinkedList {
         }
         /**
          * 6 findMid
+         * double pointer
          */
-        public Node findMid(){
-            //todo
+        public static Node findMid(Node node){
+            if(node == null|| node.next == null){
+                return node;
+            }
+            //
+            Node quick = node;
+            Node slow = node;
+            while (quick !=null && quick.next!=null){
+                quick = quick.next.next;
+                slow = slow.next;
+            }
+            return slow;
         }
 
     }
