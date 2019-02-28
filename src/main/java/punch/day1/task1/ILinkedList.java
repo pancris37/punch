@@ -121,7 +121,9 @@ public class ILinkedList {
         /**
          * 6 findMid
          */
-
+        public Node findMid(){
+            //todo
+        }
 
     }
 
