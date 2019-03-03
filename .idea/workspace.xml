@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ed3bec6-3a18-4fa0-bdaf-fa00207dd165" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode20_ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/punch/day2/task2/IQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/punch/day2/task2/IRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/punch/day2/task2/IStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/punch/day2/task2/IQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/punch/day2/task2/IStackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/punch/day1/task1/ILinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/punch/day1/task1/ILinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/punch/day1/task1/ILinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/punch/day1/task1/ILinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/punch/day1/leetcode/Leetcode15_3sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/punch/day1/leetcode/Leetcode15_3sum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,48 +19,83 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="punch" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/punch/day1/task1/ILinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/task2/IQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="96" column="49" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="49" />
+            <state relative-caret-position="1770">
+              <caret line="120" column="31" selection-start-line="120" selection-start-column="31" selection-end-line="120" selection-end-column="31" />
               <folding>
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#1430#1431#0" expanded="true" />
-                <element signature="e#1465#1466#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#2041#2042#0" expanded="true" />
+                <element signature="e#2076#2077#0" expanded="true" />
+                <element signature="e#2109#2110#0" expanded="true" />
+                <element signature="e#2149#2150#0" expanded="true" />
+                <element signature="e#2368#2369#0" expanded="true" />
+                <element signature="e#2401#2402#0" expanded="true" />
+                <element signature="e#2758#2759#0" expanded="true" />
+                <element signature="e#2814#2815#0" expanded="true" />
+                <element signature="e#2535#2536#0" expanded="true" />
+                <element signature="e#2586#2587#0" expanded="true" />
+                <element signature="e#3052#3053#0" expanded="true" />
+                <element signature="e#3089#3090#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/task2/IStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="94" column="9" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="94" selection-end-column="9" />
+              <folding>
+                <element signature="e#1890#1891#0" expanded="true" />
+                <element signature="e#1925#1926#0" expanded="true" />
+                <element signature="e#1958#1959#0" expanded="true" />
+                <element signature="e#1998#1999#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/task2/IRecursive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode20_ValidParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/punch/day1/leetcode/Leetcode15_3sum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="312">
+              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,10 +122,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/punch/day1/task1/IArrayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/punch/day1/task1/IArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/punch/day1/leetcode/Leetcode15_3sum.java" />
         <option value="$PROJECT_DIR$/src/main/java/punch/day1/task1/ILinkedList.java" />
         <option value="$PROJECT_DIR$/src/test/java/punch/day1/task1/ILinkedListTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/punch/day2/task2/IStackTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/punch/day1/leetcode/Leetcode15_3sum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/punch/day2/task2/IStack.java" />
+        <option value="$PROJECT_DIR$/src/test/java/punch/day2/task2/IQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/punch/day2/task2/IQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/punch/day2/task2/IRecursive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode20_ValidParentheses.java" />
       </list>
     </option>
   </component>
@@ -100,22 +145,31 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="24" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,7 +220,46 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="punch" type="462c0819:PsiDirectoryNode" />
               <item name="day1" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="punch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="punch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="punch" type="462c0819:PsiDirectoryNode" />
+              <item name="day1" type="462c0819:PsiDirectoryNode" />
               <item name="task1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="punch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="punch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="punch" type="462c0819:PsiDirectoryNode" />
+              <item name="day2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="punch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="punch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="punch" type="462c0819:PsiDirectoryNode" />
+              <item name="day2" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="punch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="punch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="punch" type="462c0819:PsiDirectoryNode" />
+              <item name="day2" type="462c0819:PsiDirectoryNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="punch" type="b2602c69:ProjectViewProjectNode" />
@@ -207,6 +300,25 @@
               <item name="punch" type="462c0819:PsiDirectoryNode" />
               <item name="day1" type="462c0819:PsiDirectoryNode" />
               <item name="task1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="punch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="punch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="punch" type="462c0819:PsiDirectoryNode" />
+              <item name="day2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="punch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="punch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="punch" type="462c0819:PsiDirectoryNode" />
+              <item name="day2" type="462c0819:PsiDirectoryNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="punch" type="b2602c69:ProjectViewProjectNode" />
@@ -266,6 +378,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,9 +388,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551363833174" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551621299409" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="$USER_HOME$/Self_Soft_Dir/nodejs/node_v6.10.0/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -287,6 +402,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="punch.day2.task2" />
       <recent name="punch.day1.task1" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -305,7 +421,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ILinkedListTest.testSortedListMerge">
+  <component name="RunManager" selected="Application.IRecursive">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -318,91 +434,88 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="punch.day2.task2.IRecursive" />
+      <module name="punch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="punch.day2.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IArrayTest.testArrayGrow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IQueueTest.testArrayQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="punch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="punch.day1.task1.*" />
+          <option name="PATTERN" value="punch.day2.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="punch.day1.task1" />
-      <option name="MAIN_CLASS_NAME" value="punch.day1.task1.IArrayTest" />
-      <option name="METHOD_NAME" value="testArrayGrow" />
+      <option name="PACKAGE_NAME" value="punch.day2.task2" />
+      <option name="MAIN_CLASS_NAME" value="punch.day2.task2.IQueueTest" />
+      <option name="METHOD_NAME" value="testArrayQueue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IArrayTest.testMerge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IQueueTest.testCycleQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="punch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="punch.day1.task1.*" />
+          <option name="PATTERN" value="punch.day2.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="punch.day1.task1" />
-      <option name="MAIN_CLASS_NAME" value="punch.day1.task1.IArrayTest" />
-      <option name="METHOD_NAME" value="testMerge" />
+      <option name="PACKAGE_NAME" value="punch.day2.task2" />
+      <option name="MAIN_CLASS_NAME" value="punch.day2.task2.IQueueTest" />
+      <option name="METHOD_NAME" value="testCycleQueue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IArrayTest.testSortedArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IQueueTest.testListQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="punch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="punch.day1.task1.*" />
+          <option name="PATTERN" value="punch.day2.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="punch.day1.task1" />
-      <option name="MAIN_CLASS_NAME" value="punch.day1.task1.IArrayTest" />
-      <option name="METHOD_NAME" value="testSortedArray" />
+      <option name="PACKAGE_NAME" value="punch.day2.task2" />
+      <option name="MAIN_CLASS_NAME" value="punch.day2.task2.IQueueTest" />
+      <option name="METHOD_NAME" value="testListQueue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ILinkedListTest.testSingleListReverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IStackTest.testListStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="punch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="punch.day1.task1.*" />
+          <option name="PATTERN" value="punch.day2.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="punch.day1.task1" />
-      <option name="MAIN_CLASS_NAME" value="punch.day1.task1.ILinkedListTest" />
-      <option name="METHOD_NAME" value="testSingleListReverse" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ILinkedListTest.testSortedListMerge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="punch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="punch.day1.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="punch.day1.task1" />
-      <option name="MAIN_CLASS_NAME" value="punch.day1.task1.ILinkedListTest" />
-      <option name="METHOD_NAME" value="testSortedListMerge" />
+      <option name="PACKAGE_NAME" value="punch.day2.task2" />
+      <option name="MAIN_CLASS_NAME" value="punch.day2.task2.IStackTest" />
+      <option name="METHOD_NAME" value="testListStack" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -427,11 +540,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ILinkedListTest.testSortedListMerge" />
-        <item itemvalue="JUnit.ILinkedListTest.testSingleListReverse" />
-        <item itemvalue="JUnit.IArrayTest.testMerge" />
-        <item itemvalue="JUnit.IArrayTest.testSortedArray" />
-        <item itemvalue="JUnit.IArrayTest.testArrayGrow" />
+        <item itemvalue="Application.IRecursive" />
+        <item itemvalue="JUnit.IQueueTest.testCycleQueue" />
+        <item itemvalue="JUnit.IQueueTest.testListQueue" />
+        <item itemvalue="JUnit.IQueueTest.testArrayQueue" />
+        <item itemvalue="JUnit.IStackTest.testListStack" />
       </list>
     </recent_temporary>
   </component>
@@ -452,43 +565,44 @@
       <option name="presentableId" value="Default" />
       <updated>1551255341765</updated>
       <workItem from="1551255352353" duration="30926000" />
+      <workItem from="1551513065524" duration="18355000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ILinkedListTest_testSortedListMerge - 2019.02.28 at 18h 54m 52s.xml">
-      <configuration name="ILinkedListTest.testSortedListMerge" configurationId="JUnit" />
+    <history-entry file="IStackTest_testArrayStack - 2019.03.03 at 19h 14m 21s.xml">
+      <configuration name="IStackTest.testArrayStack" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ILinkedListTest_testSortedListMerge - 2019.02.28 at 19h 20m 44s.xml">
-      <configuration name="ILinkedListTest.testSortedListMerge" configurationId="JUnit" />
+    <history-entry file="IStackTest_testListStack - 2019.03.03 at 19h 15m 30s.xml">
+      <configuration name="IStackTest.testListStack" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ILinkedListTest_testSortedListMerge - 2019.02.28 at 19h 21m 14s.xml">
-      <configuration name="ILinkedListTest.testSortedListMerge" configurationId="JUnit" />
+    <history-entry file="IQueueTest_testArrayQueue - 2019.03.03 at 19h 50m 10s.xml">
+      <configuration name="IQueueTest.testArrayQueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ILinkedListTest_testSortedListMerge - 2019.02.28 at 19h 22m 34s.xml">
-      <configuration name="ILinkedListTest.testSortedListMerge" configurationId="JUnit" />
+    <history-entry file="IQueueTest_testListQueue - 2019.03.03 at 19h 56m 40s.xml">
+      <configuration name="IQueueTest.testListQueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ILinkedListTest_testSortedListMerge - 2019.02.28 at 19h 22m 41s.xml">
-      <configuration name="ILinkedListTest.testSortedListMerge" configurationId="JUnit" />
+    <history-entry file="IQueueTest_testCycleQueue - 2019.03.03 at 20h 51m 26s.xml">
+      <configuration name="IQueueTest.testCycleQueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ILinkedListTest_testSortedListMerge - 2019.02.28 at 22h 13m 54s.xml">
-      <configuration name="ILinkedListTest.testSortedListMerge" configurationId="JUnit" />
+    <history-entry file="IQueueTest_testCycleQueue - 2019.03.03 at 20h 51m 46s.xml">
+      <configuration name="IQueueTest.testCycleQueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ILinkedListTest_testSortedListMerge - 2019.02.28 at 22h 15m 05s.xml">
-      <configuration name="ILinkedListTest.testSortedListMerge" configurationId="JUnit" />
+    <history-entry file="IQueueTest_testCycleQueue - 2019.03.03 at 20h 54m 52s.xml">
+      <configuration name="IQueueTest.testCycleQueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ILinkedListTest_testSortedListMerge - 2019.02.28 at 22h 16m 04s.xml">
-      <configuration name="ILinkedListTest.testSortedListMerge" configurationId="JUnit" />
+    <history-entry file="IQueueTest_testCycleQueue - 2019.03.03 at 20h 55m 35s.xml">
+      <configuration name="IQueueTest.testCycleQueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ILinkedListTest_testSortedListMerge - 2019.02.28 at 22h 16m 20s.xml">
-      <configuration name="ILinkedListTest.testSortedListMerge" configurationId="JUnit" />
+    <history-entry file="IQueueTest_testCycleQueue - 2019.03.03 at 20h 55m 46s.xml">
+      <configuration name="IQueueTest.testCycleQueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ILinkedListTest_testSortedListMerge - 2019.02.28 at 22h 22m 41s.xml">
-      <configuration name="ILinkedListTest.testSortedListMerge" configurationId="JUnit" />
+    <history-entry file="IQueueTest_testCycleQueue - 2019.03.03 at 20h 57m 09s.xml">
+      <configuration name="IQueueTest.testCycleQueue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33563000" />
+    <option name="totallyTimeSpent" value="53239000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,45 +614,49 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49759036" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" sideWeight="0.50190115" side_tool="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="SBT Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3299363" />
-      <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3299363" />
-      <window_info anchor="bottom" id="JProfiler" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50240964" side_tool="true" weight="0.2532189" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="SBT Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="Docker" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
+      <window_info anchor="bottom" id="JProfiler" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="SciView" order="6" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3297568" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/punch37/App.java" />
@@ -552,13 +670,6 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442">
-          <caret line="490" column="19" selection-start-line="490" selection-start-column="13" selection-end-line="490" selection-end-column="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/punch/day1/task1/IArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -597,30 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="266" column="13" selection-start-line="266" selection-start-column="13" selection-end-line="266" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day1/leetcode/Leetcode15_3sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/punch/day1/task1/ILinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -631,25 +718,132 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/punch/day1/task1/ILinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="96" column="49" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="49" />
+        <state relative-caret-position="142">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
             <element signature="e#1430#1431#0" expanded="true" />
             <element signature="e#1465#1466#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day1/leetcode/Leetcode15_3sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        <state relative-caret-position="225">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="492" lean-forward="true" selection-start-line="492" selection-end-line="492" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/task2/IStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="94" column="9" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="94" selection-end-column="9" />
+          <folding>
+            <element signature="e#1890#1891#0" expanded="true" />
+            <element signature="e#1925#1926#0" expanded="true" />
+            <element signature="e#1958#1959#0" expanded="true" />
+            <element signature="e#1998#1999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/punch/day2/task2/IStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/punch/day2/task2/IQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="52" column="50" lean-forward="true" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/task2/IQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="120" column="31" selection-start-line="120" selection-start-column="31" selection-end-line="120" selection-end-column="31" />
+          <folding>
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#2041#2042#0" expanded="true" />
+            <element signature="e#2076#2077#0" expanded="true" />
+            <element signature="e#2109#2110#0" expanded="true" />
+            <element signature="e#2149#2150#0" expanded="true" />
+            <element signature="e#2368#2369#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2758#2759#0" expanded="true" />
+            <element signature="e#2814#2815#0" expanded="true" />
+            <element signature="e#2535#2536#0" expanded="true" />
+            <element signature="e#2586#2587#0" expanded="true" />
+            <element signature="e#3052#3053#0" expanded="true" />
+            <element signature="e#3089#3090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="784" column="16" selection-start-line="784" selection-start-column="16" selection-end-line="784" selection-end-column="16" />
+          <folding>
+            <element signature="e#23214#23215#0" expanded="true" />
+            <element signature="e#23241#23242#0" expanded="true" />
+            <element signature="e#23699#23700#0" expanded="true" />
+            <element signature="e#23735#23736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/task2/IRecursive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode20_ValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -15,10 +15,47 @@ import java.util.stream.Collectors;
  */
 public class Leetcode15_3sum {
 
-        public List<List<Integer>> threeSum(int[] nums) {
-            return sum(nums,3);
+    /**
+     *  Runtime: 32 ms
+     *  Memory Usage: 48.6 MB
+     *  result:Your runtime beats 99.77 % of java submissions.
+      * @param nums
+     * @return
+     */
+    public List<List<Integer>> threeSum(int[] nums) {
+
+        Arrays.sort(nums);
+        LinkedList<List<Integer>> res = new LinkedList<>();
+
+        for (int i = 0; i <nums.length -2 ; i++) {
+            if(i == 0 || nums[i] != nums[i - 1]) {
+                int tar = 0 - nums[i];
+                if (tar < 0) break;
+                //todo two sum = tar and distinct result list
+                int l = i + 1, r = nums.length - 1;
+                while (l < r) {
+                    if(nums[l] + nums[r] > tar){
+                       r --;
+                    }else if (nums[l] + nums[r] < tar){
+                        l ++;
+                    }else {
+                        res.add(Arrays.asList(nums[i],nums[l],nums[r]));
+                        while (r > l && nums[r] == nums[r -1]) r --;
+                        while (r > l && nums[l] == nums[l +1]) l ++;
+                        l ++;
+                        r--;
+                    }
+                }
+
+            }
+        }
+            return  res;
         }
 
+
+
+
+        // ksum 通用计算逻辑
         public  List<List<Integer>> sum(int [] ints,int k){
             if (ints == null || ints.length < k){
                 return new ArrayList<List<Integer>>();
