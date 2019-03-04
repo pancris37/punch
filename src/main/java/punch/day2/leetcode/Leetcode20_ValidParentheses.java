@@ -25,6 +25,13 @@ public class Leetcode20_ValidParentheses {
             put(')','(');
         }
     };
+
+    /**
+     *  Runtime: 4 ms, faster than 98.12% of Java online submissions for Valid Parentheses.
+     * Memory Usage: 37.2 MB, less than 18.74% of Java online submissions for Valid Parentheses.
+     * @param s
+     * @return
+     */
     public boolean isValid(String s) {
         if("".equals(s) || null == s) return true;
         char[] chars = s.toCharArray();
