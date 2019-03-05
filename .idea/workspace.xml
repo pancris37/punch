@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ed3bec6-3a18-4fa0-bdaf-fa00207dd165" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode46_Permutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode47_PermutationsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode239_MaxWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/punch/day3/task3/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/punch/day3/task3/GroupSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/punch/day2/task2/IRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/punch/day2/task2/IRecursive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/punch/day2/task2/IRecursiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/punch/day2/task2/IRecursiveTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,58 +35,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode47_PermutationsII.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/punch/day3/task3/GroupSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode46_Permutations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="52" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="52" />
+            <state relative-caret-position="312">
+              <caret line="147" column="24" selection-start-line="147" selection-start-column="24" selection-end-line="147" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="method#quickSort#1;class#GroupSort#0" />
+                <element signature="method#insertSort#0;class#GroupSort#0" />
+                <element signature="method#bubbleSort#0;class#GroupSort#0" />
+                <element signature="method#selectSort#0;class#GroupSort#0" />
+                <element signature="e#2298#2299#0" expanded="true" />
+                <element signature="e#2322#2323#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode20_ValidParentheses.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/punch/day3/task3/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/task2/IRecursive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="51" column="19" selection-start-line="47" selection-start-column="7" selection-end-line="51" selection-end-column="19" />
-              <folding>
-                <element signature="e#1052#1067#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/punch/day2/task2/IRecursiveTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -124,6 +94,8 @@
         <option value="$PROJECT_DIR$/src/main/java/punch/day2/task2/IRecursive.java" />
         <option value="$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode46_Permutations.java" />
         <option value="$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode47_PermutationsII.java" />
+        <option value="$PROJECT_DIR$/src/main/java/punch/day3/task3/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/punch/day3/task3/GroupSort.java" />
       </list>
     </option>
   </component>
@@ -202,35 +174,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="punch" type="462c0819:PsiDirectoryNode" />
-              <item name="day1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="punch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="punch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="punch" type="462c0819:PsiDirectoryNode" />
-              <item name="day1" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="punch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="punch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="punch" type="462c0819:PsiDirectoryNode" />
-              <item name="day1" type="462c0819:PsiDirectoryNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="punch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="punch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="punch" type="462c0819:PsiDirectoryNode" />
               <item name="day2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -250,8 +193,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="punch" type="462c0819:PsiDirectoryNode" />
-              <item name="day2" type="462c0819:PsiDirectoryNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
+              <item name="day3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="punch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="punch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="punch" type="462c0819:PsiDirectoryNode" />
+              <item name="day3" type="462c0819:PsiDirectoryNode" />
+              <item name="task3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="punch" type="b2602c69:ProjectViewProjectNode" />
@@ -388,7 +340,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551764893186" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551774157104" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Works/qyer/code/com.qyer.log.extends" />
@@ -396,7 +348,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15523157" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
@@ -424,7 +376,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Leetcode47_PermutationsII">
+  <component name="RunManager" selected="Application.GroupSort">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -433,6 +385,20 @@
     </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="punch.day3.task3.GroupSort" />
+      <module name="punch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="punch.day3.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -488,23 +454,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IQueueTest.testListQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="punch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="punch.day2.task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="punch.day2.task2" />
-      <option name="MAIN_CLASS_NAME" value="punch.day2.task2.IQueueTest" />
-      <option name="METHOD_NAME" value="testListQueue" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IRecursiveTest.testFullArranged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="punch" />
       <extension name="coverage">
@@ -540,11 +489,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupSort" />
         <item itemvalue="Application.Leetcode47_PermutationsII" />
         <item itemvalue="JUnit.IRecursiveTest.testFullArranged" />
         <item itemvalue="Application.IRecursive" />
         <item itemvalue="JUnit.IQueueTest.testCycleQueue" />
-        <item itemvalue="JUnit.IQueueTest.testListQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -565,7 +514,7 @@
       <option name="presentableId" value="Default" />
       <updated>1551255341765</updated>
       <workItem from="1551255352353" duration="30926000" />
-      <workItem from="1551513065524" duration="36696000" />
+      <workItem from="1551513065524" duration="45387000" />
     </task>
     <servers />
   </component>
@@ -602,7 +551,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71580000" />
+    <option name="totallyTimeSpent" value="80271000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -862,32 +811,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode20_ValidParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/task2/IRecursive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="51" column="19" selection-start-line="47" selection-start-column="7" selection-end-line="51" selection-end-column="19" />
           <folding>
             <element signature="e#1052#1067#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode46_Permutations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="52" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -904,8 +833,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode47_PermutationsII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
+        <state relative-caret-position="-827">
           <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode20_ValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode46_Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="52" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode239_MaxWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day3/task3/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day3/task3/GroupSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="147" column="24" selection-start-line="147" selection-start-column="24" selection-end-line="147" selection-end-column="24" />
+          <folding>
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="method#quickSort#1;class#GroupSort#0" />
+            <element signature="method#insertSort#0;class#GroupSort#0" />
+            <element signature="method#bubbleSort#0;class#GroupSort#0" />
+            <element signature="method#selectSort#0;class#GroupSort#0" />
+            <element signature="e#2298#2299#0" expanded="true" />
+            <element signature="e#2322#2323#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
