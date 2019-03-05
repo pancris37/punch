@@ -88,8 +88,63 @@ public class GroupSort {
         }
     }
 
-    public static void heapSort(){
+    /**
+     *  堆排序
+     *  以数组方式维护类似树结构的排列方式
+     *  满足性质 array[i] <=  childL(i),childR(i)
+     *  默认 小顶堆
+     *
+     *
+     */
+    public static void heapSort(int [] nums){
 
+        int mid = nums.length  >> 1;
+        //from mid reduce to 0
+        //build heap
+        for (int i = mid ; i >= 0 ; i--) {
+            buildHeap(nums,i);
+        }
+
+        for (int i = nums.length -1; i >0 ; i--) {
+            swap(nums,i,0);
+            heapSort(nums,0,i);
+        }
+
+    }
+
+
+    private static void heapSort(int[] nums,int index,int len){
+        int childL = (index << 1) +1;
+        // 不存在 左孩子 直接返回
+        if(childL >= len) return;
+        int minChildIndex = childL;
+        // 存在右孩子
+        if(childL +1 < len){
+            minChildIndex = nums[childL] > nums[childL + 1]?childL +1:childL;
+        }
+        if(nums[minChildIndex]>=nums[index]) return;
+        swap(nums,index,minChildIndex);
+        heapSort(nums,minChildIndex,len);
+    }
+    /**
+     *  构建堆
+     * @param nums
+     * @param i
+     */
+    private static  void buildHeap(int [] nums,int i){
+        int mid = nums.length >> 1;
+        if(i >= mid) return;
+        int childR = (i<<1)+2;
+        // find min(childL,childR)
+        int childMinIndex = findChildMinIndex(nums,childR-1,childR);
+        if(nums[childMinIndex]>=nums[i]) return;
+        swap(nums,i,childMinIndex);
+        buildHeap(nums,childMinIndex);
+    }
+
+    private static int findChildMinIndex(int []nums,int l,int r){
+        if(r >= nums.length) return l;
+        return nums[l]>nums[r] ? r:l;
     }
 
     /**
@@ -139,13 +194,26 @@ public class GroupSort {
         nums[j] = tmp;
     }
 
+
+    /**
+     *  TOP K
+     *  查找第K大元素
+     *  这里默认为K 相对 整个数据组来讲很小
+     *  所以可以维护一个 K 大小的优先队列来实现
+     *  这里构建小顶堆，当 ele > heap[top] 元素 进行替换 堆顶元素 ，重新 sort构建直至结束
+     *  
+     * @param args
+     */
+
     public static void main(String [] args){
         int [] nums  = {3,1,5,7,2,3,4,8,0,3,7,1,4,24,9,11};
         //bubbleSort(nums);
         //insertSort(nums);
         //selectSort(nums);
         //quickSort(nums);
-        mergeSort(nums);
+        //mergeSort(nums);
+        heapSort(nums);
+
 
 
         for (int n : nums){

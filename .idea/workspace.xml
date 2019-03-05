@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ed3bec6-3a18-4fa0-bdaf-fa00207dd165" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode239_MaxWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/punch/day3/task3/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/punch/day3/task3/GroupSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/punch/day3/task3/GroupSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/punch/day3/task3/GroupSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/punch/day3/task3/GroupSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="147" column="24" selection-start-line="147" selection-start-column="24" selection-end-line="147" selection-end-column="24" />
+            <state relative-caret-position="207">
+              <caret line="203" column="8" selection-start-line="203" selection-start-column="8" selection-end-line="203" selection-end-column="8" />
               <folding>
                 <element signature="e#459#460#0" expanded="true" />
                 <element signature="e#508#509#0" expanded="true" />
@@ -46,8 +43,8 @@
                 <element signature="method#insertSort#0;class#GroupSort#0" />
                 <element signature="method#bubbleSort#0;class#GroupSort#0" />
                 <element signature="method#selectSort#0;class#GroupSort#0" />
-                <element signature="e#2298#2299#0" expanded="true" />
-                <element signature="e#2322#2323#0" expanded="true" />
+                <element signature="e#2993#2994#0" expanded="true" />
+                <element signature="e#3042#3043#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -340,7 +337,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551774157104" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551789464114" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Works/qyer/code/com.qyer.log.extends" />
@@ -514,7 +511,7 @@
       <option name="presentableId" value="Default" />
       <updated>1551255341765</updated>
       <workItem from="1551255352353" duration="30926000" />
-      <workItem from="1551513065524" duration="45387000" />
+      <workItem from="1551513065524" duration="50263000" />
     </task>
     <servers />
   </component>
@@ -551,7 +548,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80271000" />
+    <option name="totallyTimeSpent" value="85147000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -874,8 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/punch/day3/task3/GroupSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="147" column="24" selection-start-line="147" selection-start-column="24" selection-end-line="147" selection-end-column="24" />
+        <state relative-caret-position="207">
+          <caret line="203" column="8" selection-start-line="203" selection-start-column="8" selection-end-line="203" selection-end-column="8" />
           <folding>
             <element signature="e#459#460#0" expanded="true" />
             <element signature="e#508#509#0" expanded="true" />
@@ -883,8 +880,8 @@
             <element signature="method#insertSort#0;class#GroupSort#0" />
             <element signature="method#bubbleSort#0;class#GroupSort#0" />
             <element signature="method#selectSort#0;class#GroupSort#0" />
-            <element signature="e#2298#2299#0" expanded="true" />
-            <element signature="e#2322#2323#0" expanded="true" />
+            <element signature="e#2993#2994#0" expanded="true" />
+            <element signature="e#3042#3043#0" expanded="true" />
           </folding>
         </state>
       </provider>
