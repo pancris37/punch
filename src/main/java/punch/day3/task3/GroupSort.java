@@ -201,9 +201,10 @@ public class GroupSort {
      *  这里默认为K 相对 整个数据组来讲很小
      *  所以可以维护一个 K 大小的优先队列来实现
      *  这里构建小顶堆，当 ele > heap[top] 元素 进行替换 堆顶元素 ，重新 sort构建直至结束
-     *  
+     * //todo 要维护 size
      * @param args
      */
+
 
     public static void main(String [] args){
         int [] nums  = {3,1,5,7,2,3,4,8,0,3,7,1,4,24,9,11};

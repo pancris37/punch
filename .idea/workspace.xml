@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ed3bec6-3a18-4fa0-bdaf-fa00207dd165" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/punch/day3/task3/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/punch/day3/task3/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/punch/day3/task3/GroupSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/punch/day3/task3/GroupSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/punch/day3/task3/GroupSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="203" column="8" selection-start-line="203" selection-start-column="8" selection-end-line="203" selection-end-column="8" />
+            <state relative-caret-position="162">
+              <caret line="207" selection-start-line="207" selection-end-line="207" />
               <folding>
                 <element signature="e#459#460#0" expanded="true" />
                 <element signature="e#508#509#0" expanded="true" />
@@ -50,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/punch/day3/task3/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            <state relative-caret-position="477">
+              <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -91,8 +92,8 @@
         <option value="$PROJECT_DIR$/src/main/java/punch/day2/task2/IRecursive.java" />
         <option value="$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode46_Permutations.java" />
         <option value="$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode47_PermutationsII.java" />
-        <option value="$PROJECT_DIR$/src/main/java/punch/day3/task3/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/punch/day3/task3/GroupSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/punch/day3/task3/BinarySearch.java" />
       </list>
     </option>
   </component>
@@ -337,7 +338,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551789464114" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551791380535" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Works/qyer/code/com.qyer.log.extends" />
@@ -373,7 +374,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GroupSort">
+  <component name="RunManager" selected="Application.BinarySearch">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -382,6 +383,20 @@
     </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="punch.day3.task3.BinarySearch" />
+      <module name="punch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="punch.day3.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -434,23 +449,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IQueueTest.testCycleQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="punch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="punch.day2.task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="punch.day2.task2" />
-      <option name="MAIN_CLASS_NAME" value="punch.day2.task2.IQueueTest" />
-      <option name="METHOD_NAME" value="testCycleQueue" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IRecursiveTest.testFullArranged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="punch" />
       <extension name="coverage">
@@ -486,11 +484,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.GroupSort" />
         <item itemvalue="Application.Leetcode47_PermutationsII" />
         <item itemvalue="JUnit.IRecursiveTest.testFullArranged" />
         <item itemvalue="Application.IRecursive" />
-        <item itemvalue="JUnit.IQueueTest.testCycleQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -511,7 +509,7 @@
       <option name="presentableId" value="Default" />
       <updated>1551255341765</updated>
       <workItem from="1551255352353" duration="30926000" />
-      <workItem from="1551513065524" duration="50263000" />
+      <workItem from="1551513065524" duration="51542000" />
     </task>
     <servers />
   </component>
@@ -548,7 +546,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85147000" />
+    <option name="totallyTimeSpent" value="86426000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -563,7 +561,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497307" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497307" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" sideWeight="0.502693" side_tool="true" weight="0.2532189" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -572,7 +570,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50240964" side_tool="true" weight="0.2532189" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -862,17 +860,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day3/task3/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/punch/day3/task3/GroupSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="203" column="8" selection-start-line="203" selection-start-column="8" selection-end-line="203" selection-end-column="8" />
+        <state relative-caret-position="162">
+          <caret line="207" selection-start-line="207" selection-end-line="207" />
           <folding>
             <element signature="e#459#460#0" expanded="true" />
             <element signature="e#508#509#0" expanded="true" />
@@ -883,6 +874,13 @@
             <element signature="e#2993#2994#0" expanded="true" />
             <element signature="e#3042#3043#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day3/task3/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
         </state>
       </provider>
     </entry>
