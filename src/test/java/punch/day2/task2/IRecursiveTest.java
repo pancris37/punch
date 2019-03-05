@@ -21,7 +21,7 @@ public class IRecursiveTest {
 
     @Test
     public void testFullArranged(){
-        int [] nums = {1,2,3,4};
+        int [] nums = {1,1,3};
         List<List<Integer>> lists = IRecursive.fullyArranged(nums);
         System.out.print(lists.toString());
     }

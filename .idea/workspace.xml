@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ed3bec6-3a18-4fa0-bdaf-fa00207dd165" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/punch/day2/task2/IRecursiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode46_Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode47_PermutationsII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode20_ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode20_ValidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/punch/day2/task2/IRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/punch/day2/task2/IRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/punch/day2/task2/IRecursiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/punch/day2/task2/IRecursiveTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,12 +36,44 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/task2/IRecursive.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode47_PermutationsII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+            <state relative-caret-position="193">
+              <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode46_Permutations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="52" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode20_ValidParentheses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="49">
+              <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/task2/IRecursive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="51" column="19" selection-start-line="47" selection-start-column="7" selection-end-line="51" selection-end-column="19" />
+              <folding>
                 <element signature="e#1052#1067#0" expanded="true" />
               </folding>
             </state>
@@ -50,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/punch/day2/task2/IRecursiveTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="342">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,8 +97,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -89,6 +122,8 @@
         <option value="$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode20_ValidParentheses.java" />
         <option value="$PROJECT_DIR$/src/test/java/punch/day2/task2/IRecursiveTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/punch/day2/task2/IRecursive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode46_Permutations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode47_PermutationsII.java" />
       </list>
     </option>
   </component>
@@ -117,7 +152,7 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
+    <option name="width" value="714" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -353,10 +388,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551666205012" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551764893186" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Works/qyer/code/com.qyer.log.extends" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="$USER_HOME$/Self_Soft_Dir/nodejs/node_v6.10.0/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -369,6 +404,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="punch.day2.task2" />
       <recent name="punch.day1.task1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="punch.day2.leetcode" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -386,7 +424,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IRecursiveTest.testFullArranged">
+  <component name="RunManager" selected="Application.Leetcode47_PermutationsII">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -413,25 +451,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration name="Leetcode47_PermutationsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="punch.day2.leetcode.Leetcode47_PermutationsII" />
+      <module name="punch" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="punch.day2.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IQueueTest.testArrayQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="punch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="punch.day2.task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="punch.day2.task2" />
-      <option name="MAIN_CLASS_NAME" value="punch.day2.task2.IQueueTest" />
-      <option name="METHOD_NAME" value="testArrayQueue" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -505,11 +540,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode47_PermutationsII" />
         <item itemvalue="JUnit.IRecursiveTest.testFullArranged" />
         <item itemvalue="Application.IRecursive" />
         <item itemvalue="JUnit.IQueueTest.testCycleQueue" />
         <item itemvalue="JUnit.IQueueTest.testListQueue" />
-        <item itemvalue="JUnit.IQueueTest.testArrayQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -530,44 +565,44 @@
       <option name="presentableId" value="Default" />
       <updated>1551255341765</updated>
       <workItem from="1551255352353" duration="30926000" />
-      <workItem from="1551513065524" duration="23446000" />
+      <workItem from="1551513065524" duration="36696000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IQueueTest_testCycleQueue - 2019.03.03 at 20h 55m 35s.xml">
-      <configuration name="IQueueTest.testCycleQueue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IQueueTest_testCycleQueue - 2019.03.03 at 20h 55m 46s.xml">
-      <configuration name="IQueueTest.testCycleQueue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IQueueTest_testCycleQueue - 2019.03.03 at 20h 57m 09s.xml">
-      <configuration name="IQueueTest.testCycleQueue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IRecursiveTest_testFullArranged - 2019.03.04 at 09h 52m 55s.xml">
+    <history-entry file="IRecursiveTest_testFullArranged - 2019.03.04 at 23h 02m 18s.xml">
       <configuration name="IRecursiveTest.testFullArranged" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IRecursiveTest_testFullArranged - 2019.03.04 at 09h 53m 29s.xml">
+    <history-entry file="IRecursiveTest_testFullArranged - 2019.03.04 at 23h 03m 18s.xml">
       <configuration name="IRecursiveTest.testFullArranged" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IRecursiveTest_testFullArranged - 2019.03.04 at 09h 54m 32s.xml">
+    <history-entry file="IRecursiveTest_testFullArranged - 2019.03.04 at 23h 10m 54s.xml">
       <configuration name="IRecursiveTest.testFullArranged" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IRecursiveTest_testFullArranged - 2019.03.04 at 09h 55m 40s.xml">
+    <history-entry file="IRecursiveTest_testFullArranged - 2019.03.04 at 23h 11m 04s.xml">
       <configuration name="IRecursiveTest.testFullArranged" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IRecursiveTest_testFullArranged - 2019.03.04 at 10h 00m 15s.xml">
+    <history-entry file="IRecursiveTest_testFullArranged - 2019.03.04 at 23h 15m 15s.xml">
       <configuration name="IRecursiveTest.testFullArranged" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IRecursiveTest_testFullArranged - 2019.03.04 at 10h 05m 26s.xml">
+    <history-entry file="IRecursiveTest_testFullArranged - 2019.03.04 at 23h 15m 22s.xml">
       <configuration name="IRecursiveTest.testFullArranged" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IRecursiveTest_testFullArranged - 2019.03.04 at 10h 22m 44s.xml">
+    <history-entry file="IRecursiveTest_testFullArranged - 2019.03.05 at 08h 50m 04s.xml">
+      <configuration name="IRecursiveTest.testFullArranged" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IRecursiveTest_testFullArranged - 2019.03.05 at 08h 50m 22s.xml">
+      <configuration name="IRecursiveTest.testFullArranged" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IRecursiveTest_testFullArranged - 2019.03.05 at 08h 50m 51s.xml">
+      <configuration name="IRecursiveTest.testFullArranged" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IRecursiveTest_testFullArranged - 2019.03.05 at 08h 51m 49s.xml">
       <configuration name="IRecursiveTest.testFullArranged" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58330000" />
+    <option name="totallyTimeSpent" value="71580000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -583,7 +618,7 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497307" visible="true" weight="0.2532189" />
-      <window_info id="Structure" order="1" sideWeight="0.502693" side_tool="true" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="1" sideWeight="0.502693" side_tool="true" weight="0.2532189" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -618,6 +653,24 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode47_PermutationsII.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode47_PermutationsII.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -782,16 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode20_ValidParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Iterable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -819,10 +862,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/punch/day2/task2/IRecursiveTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode20_ValidParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="49">
+          <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -831,21 +874,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/task2/IRecursive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+        <state relative-caret-position="192">
+          <caret line="51" column="19" selection-start-line="47" selection-start-column="7" selection-end-line="51" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1052#1067#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode46_Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="52" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/punch/day2/task2/IRecursiveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode47_PermutationsII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-sdk-2.11.8</last-edited>
+          <last-edited>scala-sdk-2.12.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -867,6 +960,19 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>punch</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -881,6 +987,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

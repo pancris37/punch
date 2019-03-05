@@ -1,8 +1,6 @@
 package punch.day2.task2;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -50,24 +48,24 @@ public class IRecursive {
         Arrays.sort(nums);
         List<List<Integer>> res = new LinkedList<List<Integer>>();
         LinkedList<Integer> stack = new LinkedList<>();
-        permutation(nums,0,stack,res);
+        permutation(nums,0,res);
         return res;
     }
 
-    private static void permutation(int [] nums, int index, LinkedList<Integer> stack,List<List<Integer>> res){
+    private static void permutation(int [] nums, int index,List<List<Integer>> res){
         if (index == nums.length) {
             List<Integer> list = new LinkedList<>();
-            System.out.println(stack.toString());
-            stack.forEach(list::add);
+            for (int num : nums) {
+                list.add(num);
+            }
             res.add(list);
             return;
         }
         for (int i = index; i < nums.length; i++) {
-            stack.add(nums[i]);
-            swap(nums,index,i);
-            permutation(nums,index + 1,stack,res);
-            swap(nums,index,i);
-            stack.removeLast();
+            if( i > index && nums[i] == nums[i-1]) continue;
+            swap(nums, index, i);
+            permutation(nums, index + 1, res);
+            swap(nums, index, i);
         }
     }
     private static void swap(int[] num,int a,int b){
@@ -76,6 +74,10 @@ public class IRecursive {
         num[a] =num[b];
         num[b] =tmp;
     }
+
+    /**
+     *  全排列字典序法
+     */
 
 
 
