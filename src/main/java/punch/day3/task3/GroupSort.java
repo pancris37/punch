@@ -215,10 +215,6 @@ public class GroupSort {
      * 这种构建方式与直接在 数组上原地构建heap 方式并不一样，只需要进行 shift up/down 的维护即可
      */
 
-    public static void findNumK(int [] args){
-
-    }
-
 
     public static class MaxHeap{
         private int size;
@@ -285,9 +281,6 @@ public class GroupSort {
         //heapSort(nums);
 
         MaxHeap maxHeap = new MaxHeap(10);
-
-
-
 
         for (int n : nums){
             maxHeap.add(n);
