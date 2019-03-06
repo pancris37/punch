@@ -1,5 +1,7 @@
 package punch.day3.task3;
 
+import java.util.PriorityQueue;
+
 /**
  * Created with IntelliJ IDEA.
  *
@@ -200,11 +202,78 @@ public class GroupSort {
      *  查找第K大元素
      *  这里默认为K 相对 整个数据组来讲很小
      *  所以可以维护一个 K 大小的优先队列来实现
-     *  这里构建小顶堆，当 ele > heap[top] 元素 进行替换 堆顶元素 ，重新 sort构建直至结束
-     * //todo 要维护 size
-     * @param args
+     *  这里构建大顶堆，当 ele < heap[top] 元素 进行替换 堆顶元素 ，重新 sort构建直至结束
+     *  时间复杂度 O(N*logK)
+     *  1.
+     * 利用快速排序的思想，从数组S中随机找出一个元素X，把数组分为两部分Sa和Sb。Sa中的元素大于等于X，Sb中元素小于X。这时有两种情况：
+     *
+     *       1. Sa中元素的个数小于k，则Sb中的第k-|Sa|个元素即为第k大数；
+     *
+     *       2. Sa中元素的个数大于等于k，则返回Sa中的第k大数。时间复杂度近似为O(n)
+     *  2. BFPRT 5位算法
+     *
+     * 这种构建方式与直接在 数组上原地构建heap 方式并不一样，只需要进行 shift up/down 的维护即可
      */
 
+    public static void findNumK(int [] args){
+
+    }
+
+
+    public static class MaxHeap{
+        private int size;
+        private int [] array;
+        public MaxHeap(int cap){
+            this.array = new int[cap];
+        }
+
+
+        public void add(int num){
+            if(size < array.length){
+                array[size] = num;
+                shiftUp(array,size);
+                size ++;
+            }else {
+                if(num < array[0]){
+                    // replace
+                    array[0] = num;
+                    shiftDown(array,0,size);
+                }
+            }
+        }
+
+        public int getTop(){
+            return array[0];
+        }
+
+        private void shiftUp(int [] nums,int index){
+            int parent = (index -1 ) >> 1;
+            if(parent < 0) return;
+            if (array[parent] < array[index]){
+                swap(array,parent,index);
+                shiftUp(array,parent);
+            }
+        }
+
+        private void shiftDown(int [] nums,int index,int len){
+            int childL = (index << 1) + 1;
+            if(childL >= len) return;
+            int maxChildIndex = childL;
+            if(childL +1 < len){
+                maxChildIndex = array[childL] >= array[childL+1] ? childL:childL +1;
+            }
+            if(array[index] < array[maxChildIndex]){
+                swap(array,index,maxChildIndex);
+                shiftDown(array,maxChildIndex,len);
+            }
+        }
+
+
+
+
+
+
+    }
 
     public static void main(String [] args){
         int [] nums  = {3,1,5,7,2,3,4,8,0,3,7,1,4,24,9,11};
@@ -213,12 +282,16 @@ public class GroupSort {
         //selectSort(nums);
         //quickSort(nums);
         //mergeSort(nums);
-        heapSort(nums);
+        //heapSort(nums);
+
+        MaxHeap maxHeap = new MaxHeap(10);
+
 
 
 
         for (int n : nums){
-            System.out.print(n+ "->" );
+            maxHeap.add(n);
         }
+        System.out.println(maxHeap.getTop());
     }
 }

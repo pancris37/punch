@@ -10,7 +10,8 @@ package punch.day3.task3;
  * Description:
  * <p>
  *     1. 有序数组二分查找
- *     2. find peak
+ *     2. 模糊二分查找查找算法
+ *     3. find peak
  *
  * <br>
  */
@@ -42,5 +43,6 @@ public class BinarySearch {
     public static void main(String [] args){
         int [] nums = {1,2,3,4,5,6,7,8,9,10};
         System.out.println(binaryFinder(nums,1));
+        System.out.println(-10 >> 1);
     }
 }

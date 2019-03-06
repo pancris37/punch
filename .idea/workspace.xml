@@ -32,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/punch/day3/task3/GroupSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="207" selection-start-line="207" selection-end-line="207" />
+            <state relative-caret-position="343">
+              <caret line="295" selection-start-line="295" selection-end-line="295" />
               <folding>
                 <element signature="e#459#460#0" expanded="true" />
                 <element signature="e#508#509#0" expanded="true" />
@@ -46,16 +46,11 @@
                 <element signature="method#selectSort#0;class#GroupSort#0" />
                 <element signature="e#2993#2994#0" expanded="true" />
                 <element signature="e#3042#3043#0" expanded="true" />
+                <element signature="e#5397#5398#0" expanded="true" />
+                <element signature="e#5446#5447#0" expanded="true" />
+                <element signature="e#6197#6198#0" expanded="true" />
+                <element signature="e#6236#6237#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/punch/day3/task3/BinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -92,8 +87,8 @@
         <option value="$PROJECT_DIR$/src/main/java/punch/day2/task2/IRecursive.java" />
         <option value="$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode46_Permutations.java" />
         <option value="$PROJECT_DIR$/src/main/java/punch/day2/leetcode/Leetcode47_PermutationsII.java" />
-        <option value="$PROJECT_DIR$/src/main/java/punch/day3/task3/GroupSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/punch/day3/task3/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/punch/day3/task3/GroupSort.java" />
       </list>
     </option>
   </component>
@@ -338,7 +333,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551791380535" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551836398259" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Works/qyer/code/com.qyer.log.extends" />
@@ -374,7 +369,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.GroupSort">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -484,8 +479,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.GroupSort" />
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.Leetcode47_PermutationsII" />
         <item itemvalue="JUnit.IRecursiveTest.testFullArranged" />
         <item itemvalue="Application.IRecursive" />
@@ -509,7 +504,7 @@
       <option name="presentableId" value="Default" />
       <updated>1551255341765</updated>
       <workItem from="1551255352353" duration="30926000" />
-      <workItem from="1551513065524" duration="51542000" />
+      <workItem from="1551513065524" duration="58589000" />
     </task>
     <servers />
   </component>
@@ -546,7 +541,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86426000" />
+    <option name="totallyTimeSpent" value="93473000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -561,7 +556,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497307" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497307" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" sideWeight="0.502693" side_tool="true" weight="0.2532189" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -570,8 +565,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.50240964" side_tool="true" weight="0.2532189" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
@@ -612,6 +607,14 @@
           <line>93</line>
           <properties />
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/punch/day3/task3/GroupSort.java</url>
+          <line>230</line>
+          <properties class="punch.day3.task3.GroupSort.MaxHeap" method="add">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -860,10 +863,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="664" column="17" selection-start-line="664" selection-start-column="17" selection-end-line="664" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day3/task3/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/punch/day3/task3/GroupSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="207" selection-start-line="207" selection-end-line="207" />
+        <state relative-caret-position="343">
+          <caret line="295" selection-start-line="295" selection-end-line="295" />
           <folding>
             <element signature="e#459#460#0" expanded="true" />
             <element signature="e#508#509#0" expanded="true" />
@@ -873,14 +890,11 @@
             <element signature="method#selectSort#0;class#GroupSort#0" />
             <element signature="e#2993#2994#0" expanded="true" />
             <element signature="e#3042#3043#0" expanded="true" />
+            <element signature="e#5397#5398#0" expanded="true" />
+            <element signature="e#5446#5447#0" expanded="true" />
+            <element signature="e#6197#6198#0" expanded="true" />
+            <element signature="e#6236#6237#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/punch/day3/task3/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
         </state>
       </provider>
     </entry>
